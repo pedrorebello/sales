@@ -3,10 +3,10 @@ import { Link } from "react-router-dom";
 const Home = () => (
     <div className="container">
         <div className="jumbotron">
-            <h1 className="display-4">DSVendas</h1>
-            <p className="lead">Analise o desempenho das suas vendas por diferentes perspectivas</p>
+            <h1 className="display-4">Sales</h1>
+            <p className="lead">Have a objective and informed view on your sales</p>
             <hr />
-            <p>Esta aplicação consiste em exibir um dashboard a partir de dados fornecidos por um back end construído com Spring Boot.</p>
+            <p>This application build and show a dashboard from data provided by a backend written with the Spring framework</p>
             <Link className="btn btn-primary btn-lg" to="/dashboard">
                 Open dashboard
             </Link>
