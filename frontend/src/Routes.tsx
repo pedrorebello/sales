@@ -1,4 +1,4 @@
-import Footer from 'components/Footer';
+// import Footer from 'components/Footer';
 import NavBar from 'components/NavBar';
 import DashBoard from 'pages/DashBoard';
 import Home from 'pages/Home';
@@ -15,7 +15,7 @@ const Routes = () => (
                 <DashBoard />
             </Route>
         </Switch>
-        <Footer />
+        {/* <Footer /> */}
     </BrowserRouter>
 )
 
